@@ -1,9 +1,12 @@
 import './App.css'
-import Slider from './slider_method_1.jsx'
+import './SlickSlider.css'
+// import Slider from './slider_method_1.jsx'
+import SlickSlider from './SlickSlider.jsx'
 function App() {
   return (
-    <main>
-      <Slider/>
+    <main >
+      {/* <Slider/> */}
+      <SlickSlider />
     </main>
   )
 }

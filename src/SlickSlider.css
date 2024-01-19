@@ -1,0 +1,25 @@
+body {
+  background-color: aliceblue;
+}
+
+.slick-container {
+  margin-top: 100px !important;
+  width: 45vw;
+  margin: 10px auto;
+  text-align: center;
+}
+.person-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.slick-slide img {
+  display: inline-block !important;
+}
+.slick-prev::before {
+  color: blueviolet !important;
+}
+.slick-next::before {
+  color: blueviolet !important;
+}
